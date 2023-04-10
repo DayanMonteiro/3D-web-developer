@@ -28,15 +28,70 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "Sobre",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Trabalhos",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "Contato",
+  },
+];
+
+const hardSkills = [
+  {
+    id: 1,
+    description: "Git / GitHub, Bitbucket, Jira",
+  },
+  {
+    id: 2,
+    description: "HTML, CSS, Tailwind, SASS, Styled Components, Stitches.",
+  },
+  {
+    id: 3,
+    description: "Bootstrap, Evergreen UI, Material UI.",
+  },
+  {
+    id: 4,
+    description: "Javascript, TypeScript.",
+  },
+  {
+    id: 5,
+    description:
+      "ReactJs, React Native, Hooks, Redux, Redux-Toolkit, Mobx-React, NextJS.",
+  },
+  {
+    id: 6,
+    description: "Flowbuild, Workflow-manager.",
+  },
+  {
+    id: 7,
+    description: "Estudando: Database: MYSQL, MariaDB.",
+  },
+  {
+    id: 8,
+    description: "Estudando: Node.js (REST APIs, GraphQL)",
+  },
+  {
+    id: 9,
+    description: "Agile Methodology: Scrum / Kanban",
+  },
+];
+
+const scrum = [
+  {
+    id: "SFPC",
+    course: "Scrum Foundation Professional Certificate (SFPC)",
+  },
+  {
+    id: "SFC",
+    course: "Scrum Fundamentals Certifield (SFC)",
+  },
+  {
+    id: "SMPC",
+    course: "Scrum Master Professional Certificate (SMPC)",
   },
 ];
 
@@ -262,4 +317,12 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  hardSkills,
+  scrum,
+};
