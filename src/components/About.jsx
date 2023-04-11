@@ -45,23 +45,45 @@ const About = () => {
 
       <motion.div
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify"
+        className="mt-4 text-secondary text-[17px] max-w-full leading-[30px] text-justify"
       >
         <>
-          Eu sou formado em Suporte Técnico em Análise e Desenvolvimento de
-          Sistemas. Tenho algumas formações em metodologias ágeis:
+          <div>
+            <p className={styles.sectionSubText}>Responsabilidades</p>
+            <div>
+              Desenvolver e manter aplicações web usando React.js e mobile com
+              React Native e outras tecnologias relacionadas. Colaborar com
+              equipes multifuncionais, incluindo designers, gerentes de produto
+              e outros desenvolvedores para criar produtos de alta qualidade.
+              Implementando design responsivo e garantindo compatibilidade entre
+              navegadores. Participar de revisões de código e fornecer feedback
+              construtivo a outros desenvolvedores.
+            </div>
+          </div>
+          <br />
+          <p className={styles.sectionSubText}>
+            Formações e habilidades técnicas
+          </p>
+          <br />
+          <p className="text-[16px]">
+            Suporte Técnico em Análise e Desenvolvimento de Sistemas - UNIP
+            (Agosto 2020 - Agosto 2022).
+          </p>
+          <br />
+          <br />
+          Metodologias ágeis:
           <ul className="mt-5 list-disc ml-5 space-y-2">
             {scrum.map((scrumMaster) => (
               <li
                 key={scrumMaster.id}
-                className="text-white-100 text-[14px] pl-1 tracking-wider"
+                className="text-secondary text-[16px] pl-1 tracking-wider"
               >
                 {scrumMaster.course}
               </li>
             ))}
           </ul>
-          <br />
-          Algumas das minhas hard skills são:
+          {/* <br />
+          Hard skills:
           <ul className="mt-5 list-disc ml-5 space-y-2">
             {hardSkills.map((hard) => (
               <li
@@ -71,7 +93,7 @@ const About = () => {
                 {hard.description}
               </li>
             ))}
-          </ul>
+          </ul> */}
         </>
       </motion.div>
 

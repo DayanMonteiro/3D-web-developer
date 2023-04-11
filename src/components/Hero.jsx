@@ -32,6 +32,12 @@ const Hero = () => {
 
       <ComputersCanvas />
 
+      <div className="w-full flex justify-center items-center">
+        <p>
+          Para uma experiecia 3D clique na imagem acima e arraste para os lados
+        </p>
+      </div>
+
       {/* marcador com a bolinha subindo e descendo */}
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">

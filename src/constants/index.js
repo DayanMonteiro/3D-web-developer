@@ -15,10 +15,8 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  fdte,
+  stoom,
   carrent,
   jobit,
   tripguide,
@@ -105,13 +103,13 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "  Estudando Backend Developer",
     icon: backend,
   },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  // {
+  //   title: "Content Creator",
+  //   icon: creator,
+  // },
 ];
 
 const technologies = [
@@ -171,55 +169,30 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Front End Developer",
+    company_name:
+      "FDTE - Fundação para o Desenvolvimento Tecnológico da Engenharia",
+    icon: fdte,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Julho 2021 - Outubro 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Cliente do ramo imobiliário - Site vitrine da imobiliária com NextJS, Styled Components, GeoLib.",
+      "Cliente do ramo imobiliário -  Sistema backoffice para as rotinas da empresa desenvolvido com ReactJs, EvergreenUI, Redux/Redux-Toolkit, MǪTT (mensageria).",
+      "Cliente do ramo imobiliário -  Desenvolvimento de 2 apps um para corretores e outro pra clientes desenvolvido com React Native, Styled Components, Redux/Redux-Toolkit, MǪTT (mensageria).",
+      "Cliente no ramo de e-commerce - Site de vendas desenvildo com ReactJs, Redux, Typescript, MaterialUI, Stiches, GraphQl, NestJs.",
+      "Sistema open source  da FlowBuild desenvolvido pela FDTE com as tecnologias ReactJS, Redux/Redux-Toolkit, Typescript, Material UI, Lodash, MQTT, Notistack,  BPMN, Json Editor.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Front End Developer",
+    company_name: "STOOM ",
+    icon: stoom,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Fevereiro 2023 - Até o momento",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Cliente no ramo de e-commerce - App para gerenciamento de estoque e organização através de checklists e evidencias fotográficas de setores, desenvolvido com React Native, Typescript, Styled Components.",
+      "Cliente no ramo de e-commerce - Plataforma de e-commerce desenvolvida com ReactJs, NextJS, SASS, Mobx, Bootstrap.",
+      "Cliente no ramo de e-commerce - Marketplace Manager desenvolvido com ReactJs, Mobx, Bootstrap, SASS.",
     ],
   },
 ];
