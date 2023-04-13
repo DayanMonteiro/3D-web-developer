@@ -70,7 +70,6 @@ const About = () => {
             (Agosto 2020 - Agosto 2022).
           </p>
           <br />
-          <br />
           Metodologias ágeis:
           <ul className="mt-5 list-disc ml-5 space-y-2">
             {scrum.map((scrumMaster) => (

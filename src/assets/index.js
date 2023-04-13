@@ -8,6 +8,10 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
+import styledComponents from "./tech/styledComponents.png";
+import sass from "./tech/sass.png";
+import bootstrap from "./tech/bootstrap.png";
+import materialUi from "./tech/materialUi.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -38,6 +42,10 @@ export {
   menu,
   close,
   css,
+  styledComponents,
+  sass,
+  bootstrap,
+  materialUi,
   docker,
   figma,
   git,

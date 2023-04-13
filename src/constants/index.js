@@ -7,9 +7,13 @@ import {
   typescript,
   html,
   css,
+  styledComponents,
+  tailwind,
+  sass,
+  bootstrap,
+  materialUi,
   reactjs,
   redux,
-  tailwind,
   nodejs,
   mongodb,
   git,
@@ -122,6 +126,26 @@ const technologies = [
     icon: css,
   },
   {
+    name: "Styled Components",
+    icon: styledComponents,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "SASS",
+    icon: sass,
+  },
+  {
+    name: "Bootstrap",
+    icon: bootstrap,
+  },
+  {
+    name: "Material UI",
+    icon: materialUi,
+  },
+  {
     name: "JavaScript",
     icon: javascript,
   },
@@ -138,17 +162,13 @@ const technologies = [
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
   {
     name: "Three JS",
     icon: threejs,
@@ -161,10 +181,10 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
@@ -180,7 +200,7 @@ const experiences = [
       "Cliente do ramo imobiliário -  Sistema backoffice para as rotinas da empresa desenvolvido com ReactJs, EvergreenUI, Redux/Redux-Toolkit, MǪTT (mensageria).",
       "Cliente do ramo imobiliário -  Desenvolvimento de 2 apps um para corretores e outro pra clientes desenvolvido com React Native, Styled Components, Redux/Redux-Toolkit, MǪTT (mensageria).",
       "Cliente no ramo de e-commerce - Site de vendas desenvildo com ReactJs, Redux, Typescript, MaterialUI, Stiches, GraphQl, NestJs.",
-      "Sistema open source  da FlowBuild desenvolvido pela FDTE com as tecnologias ReactJS, Redux/Redux-Toolkit, Typescript, Material UI, Lodash, MQTT, Notistack,  BPMN, Json Editor.",
+      "Sistema open source FlowBuild desenvolvido pela FDTE com as tecnologias ReactJS, Redux/Redux-Toolkit, Typescript, Material UI, Lodash, MQTT, Notistack,  BPMN, Json Editor.",
     ],
   },
   {
@@ -193,6 +213,7 @@ const experiences = [
       "Cliente no ramo de e-commerce - App para gerenciamento de estoque e organização através de checklists e evidencias fotográficas de setores, desenvolvido com React Native, Typescript, Styled Components.",
       "Cliente no ramo de e-commerce - Plataforma de e-commerce desenvolvida com ReactJs, NextJS, SASS, Mobx, Bootstrap.",
       "Cliente no ramo de e-commerce - Marketplace Manager desenvolvido com ReactJs, Mobx, Bootstrap, SASS.",
+      "Cliente no ramo de e-commerce - Plataforma de vendas B2B desenvolvido com ReactJs, Mobx, Bootstrap, Styled Components.",
     ],
   },
 ];

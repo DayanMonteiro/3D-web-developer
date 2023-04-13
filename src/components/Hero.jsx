@@ -32,9 +32,10 @@ const Hero = () => {
 
       <ComputersCanvas />
 
-      <div className="w-full flex justify-center items-center">
+      <div className="w-full flex justify-center items-center px-3 text-justify">
         <p>
-          Para uma experiecia 3D clique na imagem acima e arraste para os lados
+          Para uma experiecia 3D em 360° clique na imagem acima e arraste para
+          os lados
         </p>
       </div>
 
