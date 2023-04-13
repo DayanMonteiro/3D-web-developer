@@ -28,6 +28,9 @@ import threejs from "./tech/threejs.svg";
 import fdte from "./company/fdte.png";
 import stoom from "./company/stoom.png";
 
+import uba from "./uba.jpeg";
+import populationData from "./populationData.jpeg";
+import fecierj from "./fecierj.jpeg";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -60,6 +63,9 @@ export {
   threejs,
   fdte,
   stoom,
+  uba,
+  populationData,
+  fecierj,
   carrent,
   jobit,
   tripguide,

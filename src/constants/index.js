@@ -22,6 +22,9 @@ import {
   fdte,
   stoom,
   carrent,
+  uba,
+  populationData,
+  fecierj,
   jobit,
   tripguide,
   threejs,
@@ -247,51 +250,55 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Ubá Móveis",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Site viteine da loja Ubá Móveis com seus endereços de filiais e exposição de produtos. O site parou de receber atualizações do cliente.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "adonisJs",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "styledComponents",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: uba,
+    source_code_link: "http://ubamoveis.com.br/",
   },
   {
-    name: "Job IT",
+    name: "Population Data",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Population Data é um projeto pessoal que desenvolvi para estudar e aprender mais sobre  geolocalização em mapas e explorar gráficos.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "apexcharts",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "leaflet",
         color: "pink-text-gradient",
       },
+      // {
+      //   name: "styledComponents",
+      //   color: "blue-text-gradient",
+      // },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: populationData,
+    source_code_link: "https://github.com/DayanMonteiro/population-data",
   },
   {
-    name: "Trip Guide",
+    name: "FECIERJ",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Atuei como freelancer no app da FECIERJ (Federação de Ciclismo do Estado do Rio de Janeiro). Aplicativo esta disponível na playstore. ",
     tags: [
       {
         name: "nextjs",
@@ -306,8 +313,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: fecierj,
+    source_code_link:
+      "https://github.com/monkey-lab/react-native-partiu-pedal/tree/bab030d8019fda1e14e4c396d3ea83b30794af37",
   },
 ];
 
